@@ -1,5 +1,7 @@
-import time
-for i in range(100):
-	print(i)
-	time.sleep(1)
-print("We're done!")
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return '<h1>Hello, World!</h1>'
