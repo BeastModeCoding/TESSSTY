@@ -1,1 +1,1 @@
-web: python whatthe.py
+web: python3 whatthe.py
